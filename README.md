@@ -1,5 +1,3 @@
-## Hi there 👋
-
 # Hey there! 👋 Welcome to My GitHub
 
 I'm **Angga**, a passionate **Full Stack Web Developer** with over a decade of experience in building and optimizing web applications. From crafting beautiful front-end designs to making sure the back-end runs like a well-oiled machine, I love taking on challenges and delivering top-notch results.
