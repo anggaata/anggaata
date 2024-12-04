@@ -45,3 +45,7 @@ I’m a big fan of optimizing code for speed and performance! There’s nothing 
 ---
 
 Looking forward to hearing from you! Let's build something awesome together! 🚀
+
+**Windows:**
+```bash
+pip install virtualenv
