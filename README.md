@@ -58,7 +58,7 @@ Install the virtual environment package using the following commands:
 
 **Windows:**
 ```bash
-pip install virtualenv
+pip install virtualenv```
 macOS and Linux:
 
 ```bash
