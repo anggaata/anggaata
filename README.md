@@ -46,6 +46,99 @@ I’m a big fan of optimizing code for speed and performance! There’s nothing 
 
 Looking forward to hearing from you! Let's build something awesome together! 🚀
 
+# Project Setup Guide
+
+Follow the steps below to set up the project on your local environment:
+
+## 1. Install Python
+If Python is not already installed, download and install it from [python.org](https://www.python.org/).
+
+## 2. Install Virtual Environment
+Install the virtual environment package using the following commands:
+
 **Windows:**
 ```bash
 pip install virtualenv
+macOS and Linux:
+
+```bash
+sudo apt install python3-virtualenv
+3. Set Up Virtual Environment
+Navigate to the project directory and set up a virtual environment:
+
+```bash
+virtualenv venv
+4. Activate Virtual Environment
+Activate the virtual environment using the appropriate command for your OS:
+
+Windows:
+
+```bash
+venv\Scripts\activate
+macOS and Linux:
+
+```bash
+source venv/bin/activate
+5. Install Dependencies
+Install the required dependencies from the provided requirements_local.txt file:
+
+bash
+pip install -r requirements_local.txt
+6. Configure Environment Variables
+Edit the .env file in the project directory with the following configurations:
+
+DEBUG=True
+Set TIME_ZONE to your local time zone.
+For local setups, set MYSQL_DB=False. If you prefer to use MySQL (not recommended for local servers):
+Set MYSQL_DB=True
+Configure DB_NAME, DB_USER, and DB_PASSWORD.
+Set WHITENOISE_CONFIG=False.
+7. Make Migrations
+Run the following commands to create migrations:
+
+Windows:
+
+bash
+Copy code
+py manage.py makemigrations
+macOS and Linux:
+
+```bash
+python3 manage.py makemigrations
+8. Apply Migrations
+Apply the migrations to the database:
+
+Windows:
+
+bash
+py manage.py migrate
+macOS and Linux:
+
+bash
+Copy code
+python3 manage.py migrate
+9. Create a Superuser
+Create a superuser account for accessing the Django admin panel:
+
+Windows:
+
+bash
+py manage.py createsuperuser
+macOS and Linux:
+
+bash
+python3 manage.py createsuperuser
+Provide the username, email, and password when prompted.
+
+10. Start the Development Server
+Run the Django development server using the following command:
+
+Windows:
+
+bash
+py manage.py runserver
+macOS and Linux:
+
+bash
+python3 manage.py runserver
+You are now ready to access the application locally at http://127.0.0.1:8000/.
