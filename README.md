@@ -5,7 +5,7 @@ I'm **Angga**, a passionate **Full Stack Web Developer** with over a decade of e
 ## 💻 What I Do
 
 - **Frontend Magic** 🪄: Vue.js, React, JavaScript, HTML5, CSS3, and a bit of Angular to make things pop.
-- **Backend Wizardry** 🔧: PHP, Node.js, Python, Laravel, MySQL, Postgresql, and MongoDB to keep the server-side smooth and scalable.
+- **Backend Wizardry** 🔧: Django, PHP, Node.js, Python, Laravel, MySQL, Postgresql, and MongoDB to keep the server-side smooth and scalable.
 - **CMS Mastery** 🛠️: WordPress, WooCommerce, Django CMS, Shopify—you name it, I can probably make it work.
 - **Build & Deploy** 🚀: Git, GitHub, and the usual suspects to get things up and running without a hitch.
 
