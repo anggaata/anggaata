@@ -33,7 +33,7 @@ If you’re looking for a reliable, creative, and detail-oriented developer who 
 Here's a quick overview of what I bring to the table:
 
 - **Frontend**: Vue.js, React, HTML5, CSS3, JavaScript, jQuery, Next
-- **Backend**: PHP, Node.js, Python, Laravel, MySQL, MongoDB, Postgresql
+- **Backend**: Django, PHP, Node.js, Python, Laravel, MySQL, MongoDB, Postgresql
 - **CMS**: WordPress, WooCommerce, Django CMS, Shopify, Webflow
 - **Tools**: Git, GitHub, Docker, NPM, cPanel, Google Analytics, Google Tag Manager, Hotjar, Amplitude, Google Console, Firebase
 
